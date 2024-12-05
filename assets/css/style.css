@@ -4,12 +4,12 @@
   box-sizing: border-box;
 }
 
-/* #region :::: HEADER :::: */
-.blog-header-logo {
-  font-size: 2.25rem;
-}
-
-.playfair_bold {
+/* #region :::: UTILITY RULES :::: */
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: bold;
 }
@@ -19,4 +19,35 @@
   font-weight: 400;
 }
 
+code {
+  background-color: #f4f4f4;
+  color: #c7254e;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* #endregion :::: UTILITY RULES :::: */
+
+/* #region :::: HEADER :::: */
+.blog-header-logo {
+  font-size: 2.25rem;
+}
+
 /* #endregion :::: HEADER :::: */
+
+/* #region :::: MAIN :::: */
+/* Front page section */
+.code_card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 40px 0;
+  font-family: Arial, sans-serif;
+}
+
+/* New posts section */
+/* #endregion :::: MAIN :::: */
